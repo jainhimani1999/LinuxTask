@@ -1,0 +1,6 @@
+Edit the vi editor using the command:
+# vi /etc/xinetd.d/telnet
+Now,change the field disable to yes
+# Disable = yes
+estart the xinetd service with the below command
+# service xinetd restart
